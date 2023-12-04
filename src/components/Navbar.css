@@ -8,6 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+
   }
   
   .navbar-container {
@@ -36,7 +37,7 @@
   
   .nav-menu {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
@@ -56,6 +57,7 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+
   }
   
   .nav-links:hover {
